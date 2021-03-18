@@ -87,6 +87,7 @@
                android:layout_height="wrap_content"
                android:text="Login"
                android:backgroundTint="@color/primary"
+               android:background="@drawable/background"
                app:layout_constraintStart_toStartOf="parent"
                android:layout_margin="@dimen/margin"
                app:layout_constraintTop_toBottomOf="@id/tvForgotPass"
@@ -113,12 +114,14 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_marginTop="10dp"
-
                android:text="Create Account "
+              android:paddingHorizontal="15dp"
                android:textSize="18sp"
                android:textStyle="bold"
                app:layout_constraintTop_toBottomOf="@id/tvMember"
+
                tools:ignore="MissingConstraints" />
+
 
 
 
