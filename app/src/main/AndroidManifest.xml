@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Eclass">
+        <activity android:name=".test"></activity>
+        <activity android:name=".InstructorProfile" />
+        <activity android:name=".News_lighr" />
+        <activity android:name=".SearchResult" />
         <activity android:name=".Profile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,16 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Account">
-
-        </activity>
+        <activity android:name=".Account" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.Eclass.NoActionBar" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".Resister" />
-        <activity android:name=".login"></activity>
+        <activity android:name=".login" />
         <activity android:name=".MainActivity" />
     </application>
 
