@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Eclass">
+        <activity android:name=".UpdatePassword"></activity>
         <activity android:name=".EditProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,9 +21,7 @@
         <activity android:name=".InstructorProfile" />
         <activity android:name=".News_lighr" />
         <activity android:name=".SearchResult" />
-        <activity android:name=".Profile">
-
-        </activity>
+        <activity android:name=".Profile"></activity>
         <activity android:name=".Account" />
         <activity
             android:name=".Home"
