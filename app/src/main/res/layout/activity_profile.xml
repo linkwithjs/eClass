@@ -196,7 +196,7 @@
                              android:layout_height="match_parent"
                              android:tint="@color/grey_40"
                              android:background="@color/white"
-                             android:src="@drawable/ic_arrow_right_24" /> />
+                             android:src="@drawable/ic_arrow_right_24" />
 
                      </LinearLayout>
 
@@ -283,7 +283,7 @@
                              android:layout_height="match_parent"
                              android:background="@color/white"
                              android:tint="@color/grey_40"
-                             android:src="@drawable/ic_arrow_right_24" />/>
+                             android:src="@drawable/ic_arrow_right_24" />
 
                      </LinearLayout>
 
@@ -435,7 +435,7 @@
              </androidx.cardview.widget.CardView>
 
 
-    </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

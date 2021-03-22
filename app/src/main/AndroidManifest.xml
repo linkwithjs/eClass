@@ -9,16 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Eclass">
-        <activity android:name=".test"></activity>
-        <activity android:name=".InstructorProfile" />
-        <activity android:name=".News_lighr" />
-        <activity android:name=".SearchResult" />
-        <activity android:name=".Profile">
+        <activity android:name=".EditProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".test" />
+        <activity android:name=".InstructorProfile" />
+        <activity android:name=".News_lighr" />
+        <activity android:name=".SearchResult" />
+        <activity android:name=".Profile">
+
         </activity>
         <activity android:name=".Account" />
         <activity
